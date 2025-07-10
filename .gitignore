@@ -11,4 +11,4 @@ config.json
 #Ignorisi pivremene fajlove 
 __pycache__/
 *.__pycache__
-*pyc
+*.pyc

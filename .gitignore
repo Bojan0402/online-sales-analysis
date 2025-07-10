@@ -1,0 +1,14 @@
+#Ignorisi poverljice fajlove
+config.json
+
+#Ignorisi slike i screenshotove
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+#Ignorisi pivremene fajlove 
+__pycache__/
+*.__pycache__
+*pyc

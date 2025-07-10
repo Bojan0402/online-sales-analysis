@@ -1,0 +1,15 @@
+from product import Product
+from product_manager import ProductManager
+
+manager = ProductManager()
+
+p1 = Product("Phone", 500, 3)
+p2 = Product("Laptop", 1000, 2)
+p3 = Product("Headphones", 150, 5)
+
+manager.add_product(p1)
+manager.add_product(p2)
+manager.add_product(p3)
+
+manager.display_products()
+print("Total inventory value:", manager.total_value())

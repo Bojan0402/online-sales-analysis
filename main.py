@@ -17,3 +17,13 @@ print("Total inventory value:", manager.total_value())
 manager.remove_product_by_name("Laptop")
 print("After removal: ")
 manager.display_products()
+
+from cart import Cart
+
+cart = Cart()
+cart.add_to_cart(p1)
+cart.add_to_cart(p3)
+cart.add_to_cart(p2)
+
+cart.display_cart()
+print("Ukupna vrednost za naplatu:", cart.total_cart_value())

@@ -13,3 +13,7 @@ manager.add_product(p3)
 
 manager.display_products()
 print("Total inventory value:", manager.total_value())
+
+manager.remove_product_by_name("Laptop")
+print("After removal: ")
+manager.display_products()
